@@ -1,9 +1,11 @@
 def new_hash
   # return an empty hash
+  []
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  nextgen_prices = {:PS4 => 250.00}
 end
 
 def pioneer
