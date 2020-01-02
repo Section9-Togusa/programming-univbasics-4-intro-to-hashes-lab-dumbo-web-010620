@@ -24,9 +24,11 @@ def my_hash_creator(key, value)
   value = {:name => "Grace Hopper"}
 end
 
-def read_from_hash(hash, key)
+def read_from_hash(hash = {:song => "Ho"} , key = {:digit => 232})
   # return the correct value using the hash and key parameters
+  puts "#{hash} and #{key}"
 end
+read_from_hash
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
