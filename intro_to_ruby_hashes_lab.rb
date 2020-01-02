@@ -18,7 +18,7 @@ def id_generator
   example_2 = {:id => 400}
 end
 
-def my_hash_creator(key = {}, value = {})
+def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
   first_name = key.fetch(:first_name)
  last_name = value.fetch(:last_name)
